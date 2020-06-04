@@ -9,4 +9,3 @@ def hello_f(name):
 def hello(name):
     message = "Hello " + name
     print(message)
-    

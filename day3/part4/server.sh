@@ -1,1 +1,1 @@
-python -m http.server --directory ./website/ --bind 127.0.0.1
+python -m http.server --directory ./mywebsite/ --bind 127.0.0.1

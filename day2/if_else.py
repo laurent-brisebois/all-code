@@ -2,12 +2,12 @@
 ### 2.3.1 simple if/else statement
 ### -------------------------------- ###
 
-name = "Laurent"
+# name = "Laurent"
 
-if name == "Laurent":
-    print("Wow what a nice name.")
-else:
-    print("Well that's ok too.")
+# if (name == "Laurent"):
+#     print("Wow what a nice name.")
+# else:
+#     print("Well that's ok too.")
 
 
 
@@ -18,7 +18,7 @@ else:
 ### -------------------------------- ###
 
 age = 33
-in_school = True
+in_school = False
 
 if (age < 12 and in_school == True):
     print("Stay in school kid")

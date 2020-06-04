@@ -1,9 +1,11 @@
 # 3.7.1: importing and using a object
 import jedi_package.jedi_module
 
-Yoda = jedi_package.jedi_module.Jedi("Yoda", "green", False)
+Yoda = jedi_package.jedi_module.Jedi("Yoda", lightsaber="green", padawan=False)
 Luke = jedi_package.jedi_module.Jedi("Luke", "green")
 print(Yoda.lightsaber)
+print(type(Yoda))
+Yoda.not_the_droids("rocks")
 
 
 
@@ -15,7 +17,7 @@ DarthVader.not_the_droids("troops")
 
 
 
-# 3.7.3: one more import statement
+# # 3.7.3: one more import statement
 from jedi_package.jedi_module import Jedi
 
 ObiWan = Jedi("Obi-Wan", "blue", padawan=False)

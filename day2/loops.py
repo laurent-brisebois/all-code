@@ -5,9 +5,9 @@
 # for i in range(7):
 #     print(f"Happy {i} Birthday!")
 
-age = 9
-for i in range(age):
-    print(f"Happy {i} Birthday!")
+# age = 9
+# for i in range(age):
+#     print(f"Happy {i} Birthday!")
 
 
 ### -------------------------------- ###
@@ -15,3 +15,12 @@ for i in range(age):
 ### -------------------------------- ###
 
 # how_many_candles(age)
+
+
+def cool_loop():
+    j = 0
+    while (j < 8):
+        print("what's up")
+        j = j + 1
+
+cool_loop()
